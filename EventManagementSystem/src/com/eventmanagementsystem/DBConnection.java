@@ -8,7 +8,7 @@ public class DBConnection {
 
     private static final String URL = "jdbc:mysql://localhost:3306/event_management";  // DB name
     private static final String USER = "root";  // MySQL username
-    private static final String PASSWORD = "#Madhu17";  // MySQL password 
+    private static final String PASSWORD = "";  // MySQL password 
 
     public static Connection getConnection() {
         try {
